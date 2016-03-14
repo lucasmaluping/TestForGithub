@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
         testGithub();
         testTwo();
+        testThree();
     }
 
     public void testGithub() {
@@ -45,7 +46,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void testTwo(){
-        Log.i("MainActivity","...."+"abc");
+        Log.i("MainActivity", "...."+"abc");
+    }
+
+    public void testThree() {
+        Log.i("MainActivity","...." +"def");
     }
 
     @Override
