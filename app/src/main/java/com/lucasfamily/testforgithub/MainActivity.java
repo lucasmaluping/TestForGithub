@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
         initData();
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -34,11 +35,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void testGithub() {
-        Log.i("MainActivity","..."+ "testHool...");
+        Log.i("MainActivity", "..." + "testHool...");
     }
 
     private void initData() {
-
+        Log.d("------","------");
     }
 
     @Override
